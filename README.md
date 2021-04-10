@@ -1,4 +1,4 @@
-### Sitio Web de Ricardo Diseño Inteligente 👋
+### Sitio Web de Ricardo Diseño Inteligente
 
 Aquí encontrarán muestras del trabajo realizado.
 
