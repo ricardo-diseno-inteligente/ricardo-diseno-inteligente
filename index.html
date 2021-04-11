@@ -1,10 +1,148 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Ricardo Diseño Inteligente</title>
-</head>
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Ricardo Fonseca">
+    <meta name="generator" content="Diseño Inteligente 0.00.1">
+    <title>Ricardo Diseño Inteligente</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/disenointeligente.css" rel="stylesheet">
+  </head>
 <body>
 
-<img src="images/diseno.jfif" alt="Diseño Inteligente">
+  <!-- Menu -->
+  <div class="container">
+    <header class="d-flex flex-wrap align-items-center justify-content-center py-3 mb-4 border-bottom">
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">Proyectos</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">Precios</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">Acerca de</a></li>
+      </ul>
+    </header>
+  </div>
+  <!-- Contenido -->
+  <div class="container">
+    <div class="row featurette">
+      <div class="col-md-4">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="texto-titulo">Diseño Editorial</h2>
+          </div>
+          <div class="col-md-6">
+            <span class="texto-descripcion">Revistas, libros, catálogos.</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="texto-titulo">Manejo de Redes</h2>
+          </div>
+          <div class="col-md-6">
+            <span class="texto-descripcion">Facebook, Instagram, Whatsapp.</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="texto-titulo">Animación De Video</h2>
+          </div>
+          <div class="col-md-6">
+            <span class="texto-descripcion">Animaciones para redes sociales, animación de logos.</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="texto-titulo">Asesoría En Diseño</h2>
+          </div>
+          <div class="col-md-6">
+            <span class="texto-descripcion">Guiamos su empresa para que sea la número uno en el mercado.</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="texto-titulo">Manual De Marca</h2>
+          </div>
+          <div class="col-md-6">
+            <span class="texto-descripcion">Manejo ténico de la marca.</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="texto-titulo">Campañas Publicitarias</h2>
+          </div>
+          <div class="col-md-6">
+            <span class="texto-descripcion">Diseño de material publicitario.</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <main>
+          <div id="carouselProyectos" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselProyectos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselProyectos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselProyectos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+                <div class="container">
+                  <div class="carousel-caption text-start">
+                    <h1>Example headline.</h1>
+                    <p>Some representative placeholder content for the first slide of the carousel.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1>Another example headline.</h1>
+                    <p>Some representative placeholder content for the second slide of the carousel.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+                <div class="container">
+                  <div class="carousel-caption text-end">
+                    <h1>One more for good measure.</h1>
+                    <p>Some representative placeholder content for the third slide of this carousel.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProyectos" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselProyectos" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div><!-- /.container -->
+  <!-- Pie de página -->
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Al Inicio</a></p>
+    <p>&copy; 2017–2021 &middot; <a href="#">Enlace 1</a> &middot; <a href="#">Enlace 2</a></p>
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
